@@ -1,0 +1,18 @@
+{
+  "gameVersion": "0.111.0",
+  "ritsuLib": "0.6.2",
+  "dllSha256": "COPY_FROM_CURRENT_BUILD_REPORT",
+  "pckSha256": "COPY_FROM_CURRENT_BUILD_REPORT",
+  "startup": false,
+  "allContent": false,
+  "localization": false,
+  "singlePlayer": false,
+  "twoPlayers": false,
+  "fourPlayers": false,
+  "saveLoad": false,
+  "fullHand": false,
+  "upgrades": false,
+  "missingDependency": false,
+  "cleanSubscription": false,
+  "notes": "Record actual tests. Do not mark untested items true."
+}

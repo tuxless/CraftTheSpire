@@ -1,0 +1,119 @@
+{
+  "creationMethod": "Built-in image generation; size conversion for game assets",
+  "style": "Original block-survival fantasy game mod illustration, chunky square faceted forms, painterly light, crisp readable silhouettes. Not copied Minecraft graphics, no logos, no watermark, no humans.",
+  "assetPrompts": [
+    {
+      "asset": "WoodenPickaxe",
+      "subject": "single wooden pickaxe striking grey cave wall, flying stone, warm lantern light",
+      "transparent": false,
+      "composition": "centered readable silhouette with safe margins"
+    },
+    {
+      "asset": "IronPickaxe",
+      "subject": "single silver iron pickaxe striking rusty ore seam, sparks",
+      "transparent": false,
+      "composition": "centered readable silhouette with safe margins"
+    },
+    {
+      "asset": "Mining",
+      "subject": "cave perspective with coal, iron, gold and cyan diamond veins",
+      "transparent": false,
+      "composition": "centered readable silhouette with safe margins"
+    },
+    {
+      "asset": "Tnt",
+      "subject": "red cubic dynamite crate, ivory bands, lit fuse, sparks, no lettering",
+      "transparent": false,
+      "composition": "centered readable silhouette with safe margins"
+    },
+    {
+      "asset": "GoldenApple",
+      "subject": "floating luminous gold block-faceted apple, quiet dark cave",
+      "transparent": false,
+      "composition": "centered readable silhouette with safe margins"
+    },
+    {
+      "asset": "Coal",
+      "subject": "black coal lump, chunky facets, warm rim light",
+      "transparent": false,
+      "composition": "centered readable silhouette with safe margins"
+    },
+    {
+      "asset": "IronIngot",
+      "subject": "single silver-grey beveled rectangular iron ingot",
+      "transparent": false,
+      "composition": "centered readable silhouette with safe margins"
+    },
+    {
+      "asset": "GoldIngot",
+      "subject": "single bright golden beveled rectangular ingot",
+      "transparent": false,
+      "composition": "centered readable silhouette with safe margins"
+    },
+    {
+      "asset": "Diamond",
+      "subject": "vivid cyan faceted diamond crystal, quiet cave background",
+      "transparent": false,
+      "composition": "centered readable silhouette with safe margins"
+    },
+    {
+      "asset": "Furnace",
+      "subject": "cubic grey brick furnace with orange fire opening",
+      "transparent": true,
+      "composition": "centered readable silhouette with safe margins"
+    },
+    {
+      "asset": "CraftingTable",
+      "subject": "wood cube workbench with dark 3 by 3 grid on top",
+      "transparent": true,
+      "composition": "centered readable silhouette with safe margins"
+    },
+    {
+      "asset": "EnderChest",
+      "subject": "dark teal cubic chest, gold clasp, purple seams",
+      "transparent": true,
+      "composition": "centered readable silhouette with safe margins"
+    },
+    {
+      "asset": "DiamondPickaxe",
+      "subject": "cyan crystal pickaxe head on sturdy brown handle, diagonal",
+      "transparent": true,
+      "composition": "centered readable silhouette with safe margins"
+    },
+    {
+      "asset": "AbandonedMineshaft",
+      "subject": "dark descending timber-supported mineshaft, rails, lantern, cyan ore glint, abandoned pickaxe",
+      "transparent": false,
+      "composition": "centered readable silhouette with safe margins"
+    },
+    {
+      "asset": "Cover",
+      "subject": "cute smiling cyan diamond, coal and gold ingot beside a rounded pickaxe, cozy pastel cave with distant little spire; title CRAFT THE SPIRE",
+      "transparent": false,
+      "composition": "square workshop cover, clear gem mascot group, rounded bubble title in lower quarter",
+      "style": "Japanese kawaii chibi 2D illustration, pastel aqua/cream/pink/lavender, soft outlines and light cel shading"
+    }
+  ],
+  "cardSize": [
+    500,
+    380
+  ],
+  "relicIconSize": [
+    85,
+    85
+  ],
+  "relicBigSize": [
+    256,
+    256
+  ],
+  "eventSize": [
+    1024,
+    768
+  ],
+  "coverSize": [
+    512,
+    512
+  ],
+  "outline": "Uses the small transparent object texture; native UI can tint it. No extracted game textures.",
+  "coverStyle": "Japanese kawaii chibi 2D illustration; pastel colors; cute smiling diamond, coal and gold; rounded bubble title. Final prompt in docs/cover-prompt.txt."
+}

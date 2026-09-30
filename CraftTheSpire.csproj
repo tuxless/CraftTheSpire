@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <LangVersion>13.0</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>CraftTheSpire</AssemblyName>
+    <Version>1.0.0</Version>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <RitsuLibAutoCopy>false</RitsuLibAutoCopy>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Code/**/*.cs" />
+    <Reference Include="sts2" HintPath="$(GameDataDir)/sts2.dll" Private="false" />
+    <Reference Include="0Harmony" HintPath="$(GameDataDir)/0Harmony.dll" Private="false" />
+    <Reference Include="SmartFormat" HintPath="$(GameDataDir)/SmartFormat.dll" Private="false" />
+    <PackageReference Include="STS2.RitsuLib" Version="0.6.2" ExcludeAssets="build;buildTransitive;contentFiles" />
+    <PackageReference Include="GodotSharp" Version="4.5.1" />
+  </ItemGroup>
+  <Import Project="local.props" Condition="Exists('local.props')" />
+  <Target Name="CheckGameReferences" BeforeTargets="ResolveAssemblyReferences">
+    <Error Condition="!Exists('$(GameDataDir)/sts2.dll')" Text="Select the Beta 0.111.0 folder containing sts2.dll. Run Build.cmd." />
+    <Error Condition="!Exists('$(GameDataDir)/0Harmony.dll')" Text="The complete game data folder must include 0Harmony.dll for RitsuLib-managed native integration." />
+    <Error Condition="!Exists('$(GameDataDir)/SmartFormat.dll')" Text="SmartFormat.dll is missing from the selected game data folder." />
+  </Target>
+</Project>

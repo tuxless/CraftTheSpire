@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "compiled": false,
+  "csharpRuleTestsExecuted": false,
+  "gameplayTested": false,
+  "multiplayerTested": false,
+  "windowsPowerShellRuntimeTested": false,
+  "csharpFiles": 25,
+  "powershellFiles": 8,
+  "cardsLocKeys": 18,
+  "relicsLocKeys": 12,
+  "eventsLocKeys": 16,
+  "registeredCards": 9,
+  "registeredRelics": 4,
+  "registeredEvents": 1,
+  "workshopCoverBytes": 393488,
+  "pckFormat": 3,
+  "pckBytes": 8071280,
+  "pckSourceFiles": 28,
+  "pckCleanGodotMount": "passed, 22 textures + 6 JSON tables",
+  "newModIdentity": {
+    "modId": "CraftTheSpire",
+    "contentNamespace": "CRAFT_THE_SPIRE",
+    "existingWorkshopIdBundled": false,
+    "runtimeDependencyItem": 3747602295,
+    "workshopIdentityGuard": "source inspected; Windows execution pending"
+  },
+  "workshopCoverStyle": "Japanese kawaii chibi",
+  "actualGameApiMetadataChecked": true,
+  "apiSignatureChecks": 94,
+  "overrideMembersReviewed": 52,
+  "coreClrFailure": "0x8007000E; startup failed before compilation",
+  "previousUserWindowsBuild": {
+    "status": "passed before this update",
+    "deterministicRuleChecks": 40205,
+    "warnings": 7,
+    "localInstall": "passed as shown in screenshot"
+  },
+  "newChanges": [
+    "five formal cards discovered after profile and main menu readiness",
+    "replace one starting Strike per character with Wooden Pickaxe",
+    "four formal cards relative weight 2 in native eligible candidates",
+    "explicit RitsuLib-managed dynamic patch application and count checks",
+    "nullable owner/combat guards"
+  ],
+  "nativeCardSelectionIlChecks": 6
+}

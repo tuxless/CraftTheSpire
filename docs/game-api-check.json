@@ -1,0 +1,838 @@
+{
+  "status": "passed",
+  "scope": "Used API metadata signatures, enum members, overrides and source syntax; not C# compilation or gameplay.",
+  "targetGameVersion": "0.111.0",
+  "versionLabelSource": "user-selected target; assembly version is 0.1.0.0 and does not identify the game build",
+  "ritsuLib": "0.6.2",
+  "sts2Sha256": "0861BFA1DF347538D932F22D580E75420F08082792EB914E53B4882764ACDBE9",
+  "referenceSha256": {
+    "SmartFormat.dll": "6220CDE1DAFFFDE5C51A4E23DB4BB16E8EC620EF52BAC51C0AD5F48C4769F168",
+    "0Harmony.dll": "EF1898322C9F5C86DC1B0758B272A9C440823B4A41CA9A0B82A3AA6B3D206387",
+    "GodotSharp.dll": "0E4897ECDFB31456A97C7D8028DFB8D7DBDC632E2F73FC9B438D7B266A139289",
+    "sts2.dll": "0861BFA1DF347538D932F22D580E75420F08082792EB914E53B4882764ACDBE9"
+  },
+  "overridesReviewed": 52,
+  "parsedFiles": {
+    "Code/**/*.cs": 24,
+    "tests/*.cs": 1,
+    "scripts/*.ps1": 8
+  },
+  "signatureChecks": [
+    {
+      "type": "MegaCrit.Sts2.Core.Commands.Builders.AttackCommand",
+      "member": "FromCard",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Models.CardModel",
+        "MegaCrit.Sts2.Core.Entities.Cards.CardPlay"
+      ],
+      "returns": "MegaCrit.Sts2.Core.Commands.Builders.AttackCommand"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Commands.Builders.AttackCommand",
+      "member": "Targeting",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Entities.Creatures.Creature"
+      ],
+      "returns": "MegaCrit.Sts2.Core.Commands.Builders.AttackCommand"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Commands.Builders.AttackCommand",
+      "member": "TargetingAllOpponents",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Combat.ICombatState"
+      ],
+      "returns": "MegaCrit.Sts2.Core.Commands.Builders.AttackCommand"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Commands.Builders.AttackCommand",
+      "member": "Execute",
+      "parameters": [
+        "MegaCrit.Sts2.Core.GameActions.Multiplayer.PlayerChoiceContext"
+      ],
+      "returns": "System.Threading.Tasks.Task`1<MegaCrit.Sts2.Core.Commands.Builders.AttackCommand>"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Commands.DamageCmd",
+      "member": "Attack",
+      "parameters": [
+        "System.Decimal"
+      ],
+      "returns": "MegaCrit.Sts2.Core.Commands.Builders.AttackCommand"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Commands.CreatureCmd",
+      "member": "Damage",
+      "parameters": [
+        "MegaCrit.Sts2.Core.GameActions.Multiplayer.PlayerChoiceContext",
+        "MegaCrit.Sts2.Core.Entities.Creatures.Creature",
+        "System.Decimal",
+        "MegaCrit.Sts2.Core.ValueProps.ValueProp",
+        "MegaCrit.Sts2.Core.Models.CardModel",
+        "MegaCrit.Sts2.Core.Entities.Cards.CardPlay"
+      ],
+      "returns": "System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.Entities.Creatures.DamageResult>>"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Commands.CreatureCmd",
+      "member": "GainBlock",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Entities.Creatures.Creature",
+        "MegaCrit.Sts2.Core.Localization.DynamicVars.BlockVar",
+        "MegaCrit.Sts2.Core.Entities.Cards.CardPlay",
+        "bool"
+      ],
+      "returns": "System.Threading.Tasks.Task`1<System.Decimal>"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Commands.CreatureCmd",
+      "member": "LoseMaxHp",
+      "parameters": [
+        "MegaCrit.Sts2.Core.GameActions.Multiplayer.PlayerChoiceContext",
+        "MegaCrit.Sts2.Core.Entities.Creatures.Creature",
+        "System.Decimal",
+        "bool"
+      ],
+      "returns": "System.Threading.Tasks.Task"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Commands.CreatureCmd",
+      "member": "SetCurrentHp",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Entities.Creatures.Creature",
+        "System.Decimal"
+      ],
+      "returns": "System.Threading.Tasks.Task"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Commands.PowerCmd",
+      "member": "Apply",
+      "parameters": [
+        "MegaCrit.Sts2.Core.GameActions.Multiplayer.PlayerChoiceContext",
+        "MegaCrit.Sts2.Core.Entities.Creatures.Creature",
+        "System.Decimal",
+        "MegaCrit.Sts2.Core.Entities.Creatures.Creature",
+        "MegaCrit.Sts2.Core.Models.CardModel",
+        "bool"
+      ],
+      "returns": "System.Threading.Tasks.Task`1<M0>"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Commands.PlayerCmd",
+      "member": "GainEnergy",
+      "parameters": [
+        "System.Decimal",
+        "MegaCrit.Sts2.Core.Entities.Players.Player"
+      ],
+      "returns": "System.Threading.Tasks.Task"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Commands.PlayerCmd",
+      "member": "GainGold",
+      "parameters": [
+        "System.Decimal",
+        "MegaCrit.Sts2.Core.Entities.Players.Player",
+        "bool"
+      ],
+      "returns": "System.Threading.Tasks.Task"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Commands.CardPileCmd",
+      "member": "Draw",
+      "parameters": [
+        "MegaCrit.Sts2.Core.GameActions.Multiplayer.PlayerChoiceContext",
+        "System.Decimal",
+        "MegaCrit.Sts2.Core.Entities.Players.Player",
+        "bool"
+      ],
+      "returns": "System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.Models.CardModel>>"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Commands.RelicCmd",
+      "member": "Obtain",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Models.RelicModel",
+        "MegaCrit.Sts2.Core.Entities.Players.Player",
+        "int"
+      ],
+      "returns": "System.Threading.Tasks.Task`1<MegaCrit.Sts2.Core.Models.RelicModel>"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Commands.CardCmd",
+      "member": "PreviewCardPileAdd",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Entities.Cards.CardPileAddResult",
+        "float",
+        "MegaCrit.Sts2.Core.Nodes.CommonUi.CardPreviewStyle"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Combat.ICombatState",
+      "member": "CreateCard",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Models.CardModel",
+        "MegaCrit.Sts2.Core.Entities.Players.Player"
+      ],
+      "returns": "MegaCrit.Sts2.Core.Models.CardModel"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Combat.ICombatState",
+      "member": "get_RoundNumber",
+      "parameters": [],
+      "returns": "int"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Runs.ICardScope",
+      "member": "CreateCard",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Models.CardModel",
+        "MegaCrit.Sts2.Core.Entities.Players.Player"
+      ],
+      "returns": "MegaCrit.Sts2.Core.Models.CardModel"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Runs.RunState",
+      "member": "get_VisitedEventIds",
+      "parameters": [],
+      "returns": "System.Collections.Generic.IReadOnlySet`1<MegaCrit.Sts2.Core.Models.ModelId>"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.EventModel",
+      "member": "L10NLookup",
+      "parameters": [
+        "string"
+      ],
+      "returns": "MegaCrit.Sts2.Core.Localization.LocString"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.EventModel",
+      "member": "SetEventFinished",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Localization.LocString"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.EventModel",
+      "member": "get_Rng",
+      "parameters": [],
+      "returns": "MegaCrit.Sts2.Core.Random.Rng"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.EventModel",
+      "member": "IsAllowed",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Runs.IRunState"
+      ],
+      "returns": "bool"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Events.EventOption",
+      "member": ".ctor",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Models.EventModel",
+        "System.Func`1<System.Threading.Tasks.Task>",
+        "MegaCrit.Sts2.Core.Localization.LocString",
+        "MegaCrit.Sts2.Core.Localization.LocString",
+        "string",
+        "System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.HoverTips.IHoverTip>"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Events.EventOption",
+      "member": "ThatDecreasesMaxHp",
+      "parameters": [
+        "System.Decimal"
+      ],
+      "returns": "MegaCrit.Sts2.Core.Events.EventOption"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Localization.LocString",
+      "member": "Add",
+      "parameters": [
+        "string",
+        "System.Decimal"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Localization.DynamicVars.DynamicVar",
+      "member": ".ctor",
+      "parameters": [
+        "string",
+        "System.Decimal"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Localization.DynamicVars.DynamicVar",
+      "member": "set_BaseValue",
+      "parameters": [
+        "System.Decimal"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Localization.DynamicVars.DynamicVar",
+      "member": "UpgradeValueBy",
+      "parameters": [
+        "System.Decimal"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Localization.DynamicVars.DamageVar",
+      "member": ".ctor",
+      "parameters": [
+        "System.Decimal",
+        "MegaCrit.Sts2.Core.ValueProps.ValueProp"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Localization.DynamicVars.BlockVar",
+      "member": ".ctor",
+      "parameters": [
+        "System.Decimal",
+        "MegaCrit.Sts2.Core.ValueProps.ValueProp"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Localization.DynamicVars.HpLossVar",
+      "member": ".ctor",
+      "parameters": [
+        "System.Decimal"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Entities.Cards.CardEnergyCost",
+      "member": "UpgradeBy",
+      "parameters": [
+        "int"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.ModelDb",
+      "member": "Card",
+      "parameters": [],
+      "returns": "M0"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.ModelDb",
+      "member": "Relic",
+      "parameters": [],
+      "returns": "M0"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.CardModel",
+      "member": "get_CombatState",
+      "parameters": [],
+      "returns": "MegaCrit.Sts2.Core.Combat.ICombatState"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.RelicModel",
+      "member": "ToMutable",
+      "parameters": [],
+      "returns": "MegaCrit.Sts2.Core.Models.RelicModel"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Combat.CombatManager",
+      "member": "get_IsInProgress",
+      "parameters": [],
+      "returns": "bool"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Combat.CombatManager",
+      "member": "get_IsOverOrEnding",
+      "parameters": [],
+      "returns": "bool"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Random.Rng",
+      "member": "NextInt",
+      "parameters": [
+        "int"
+      ],
+      "returns": "int"
+    },
+    {
+      "type": "STS2RitsuLib.RitsuLibFramework",
+      "member": "CreateLogger",
+      "parameters": [
+        "string",
+        "MegaCrit.Sts2.Core.Logging.LogType"
+      ],
+      "returns": "MegaCrit.Sts2.Core.Logging.Logger"
+    },
+    {
+      "type": "STS2RitsuLib.Interop.ModTypeDiscoveryHub",
+      "member": "RegisterModAssembly",
+      "parameters": [
+        "string",
+        "System.Reflection.Assembly"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "STS2RitsuLib.Scaffolding.Content.ModCardTemplate",
+      "member": ".ctor",
+      "parameters": [
+        "int",
+        "MegaCrit.Sts2.Core.Entities.Cards.CardType",
+        "MegaCrit.Sts2.Core.Entities.Cards.CardRarity",
+        "MegaCrit.Sts2.Core.Entities.Cards.TargetType",
+        "bool"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "STS2RitsuLib.Scaffolding.Content.ModEventTemplate",
+      "member": "InitialOptionKey",
+      "parameters": [
+        "string"
+      ],
+      "returns": "string"
+    },
+    {
+      "type": "STS2RitsuLib.Scaffolding.Content.ModEventTemplate",
+      "member": "PageDescription",
+      "parameters": [
+        "string"
+      ],
+      "returns": "MegaCrit.Sts2.Core.Localization.LocString"
+    },
+    {
+      "type": "STS2RitsuLib.Interop.AutoRegistration.RegisterCardAttribute",
+      "member": ".ctor",
+      "parameters": [
+        "System.Type"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "STS2RitsuLib.Interop.AutoRegistration.RegisterRelicAttribute",
+      "member": ".ctor",
+      "parameters": [
+        "System.Type"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "STS2RitsuLib.Interop.AutoRegistration.RegisterSharedEventAttribute",
+      "member": ".ctor",
+      "parameters": [],
+      "returns": "void"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Saves.Runs.SavedPropertyAttribute",
+      "member": ".ctor",
+      "parameters": [],
+      "returns": "void"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Modding.ModInitializerAttribute",
+      "member": ".ctor",
+      "parameters": [
+        "string"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.GameActions.Multiplayer.ThrowingPlayerChoiceContext",
+      "member": ".ctor",
+      "parameters": [],
+      "returns": "void"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Logging.Logger",
+      "member": "Info",
+      "parameters": [
+        "string",
+        "int"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Logging.Logger",
+      "member": "Warn",
+      "parameters": [
+        "string",
+        "int"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Saves.SaveManager",
+      "member": "get_Instance",
+      "parameters": [],
+      "returns": "MegaCrit.Sts2.Core.Saves.SaveManager"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Saves.SaveManager",
+      "member": "get_IsProfileInitialized",
+      "parameters": [],
+      "returns": "bool"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Saves.SaveManager",
+      "member": "get_CurrentProfileId",
+      "parameters": [],
+      "returns": "int"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Saves.SaveManager",
+      "member": "get_Progress",
+      "parameters": [],
+      "returns": "MegaCrit.Sts2.Core.Saves.ProgressState"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Saves.SaveManager",
+      "member": "SaveProgressFile",
+      "parameters": [],
+      "returns": "void"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Saves.ProgressState",
+      "member": "MarkCardAsSeen",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Models.ModelId"
+      ],
+      "returns": "bool"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Saves.ProgressState",
+      "member": "get_DiscoveredCards",
+      "parameters": [],
+      "returns": "System.Collections.Generic.IReadOnlySet`1<MegaCrit.Sts2.Core.Models.ModelId>"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.ModelDb",
+      "member": "CardPool",
+      "parameters": [],
+      "returns": "M0"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.CardPoolModel",
+      "member": "get_AllCardIds",
+      "parameters": [],
+      "returns": "System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.Models.ModelId>"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.CardModel",
+      "member": "get_Rarity",
+      "parameters": [],
+      "returns": "MegaCrit.Sts2.Core.Entities.Cards.CardRarity"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.CardModel",
+      "member": "get_ShouldShowInCardLibrary",
+      "parameters": [],
+      "returns": "bool"
+    },
+    {
+      "type": "STS2RitsuLib.RitsuLibFramework",
+      "member": "SubscribeLifecycle",
+      "parameters": [
+        "System.Action`1<M0>",
+        "bool"
+      ],
+      "returns": "System.IDisposable"
+    },
+    {
+      "type": "Godot.Callable",
+      "member": "From",
+      "parameters": [
+        "System.Action"
+      ],
+      "returns": "Godot.Callable"
+    },
+    {
+      "type": "Godot.Callable",
+      "member": "CallDeferred",
+      "parameters": [
+        "Godot.Variant[]"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "STS2RitsuLib.RitsuLibFramework",
+      "member": "CreatePatcher",
+      "parameters": [
+        "string",
+        "string",
+        "string",
+        "MegaCrit.Sts2.Core.Logging.LogType"
+      ],
+      "returns": "STS2RitsuLib.Patching.Core.ModPatcher"
+    },
+    {
+      "type": "STS2RitsuLib.Patching.Builders.DynamicPatchBuilder",
+      "member": ".ctor",
+      "parameters": [
+        "string"
+      ],
+      "returns": "void"
+    },
+    {
+      "type": "STS2RitsuLib.Patching.Builders.DynamicPatchBuilder",
+      "member": "Add",
+      "parameters": [
+        "System.Reflection.MethodBase",
+        "HarmonyLib.HarmonyMethod",
+        "HarmonyLib.HarmonyMethod",
+        "HarmonyLib.HarmonyMethod",
+        "HarmonyLib.HarmonyMethod",
+        "bool",
+        "string",
+        "string"
+      ],
+      "returns": "STS2RitsuLib.Patching.Builders.DynamicPatchBuilder"
+    },
+    {
+      "type": "STS2RitsuLib.Patching.Builders.DynamicPatchBuilder",
+      "member": "FromMethod",
+      "parameters": [
+        "System.Type",
+        "string"
+      ],
+      "returns": "HarmonyLib.HarmonyMethod"
+    },
+    {
+      "type": "STS2RitsuLib.Patching.Builders.DynamicPatchBuilder",
+      "member": "get_Patches",
+      "parameters": [],
+      "returns": "System.Collections.Generic.IReadOnlyList`1<STS2RitsuLib.Patching.Models.DynamicPatchInfo>"
+    },
+    {
+      "type": "STS2RitsuLib.Patching.Core.ModPatcherExtensions",
+      "member": "ApplyDynamic",
+      "parameters": [
+        "STS2RitsuLib.Patching.Core.ModPatcher",
+        "STS2RitsuLib.Patching.Builders.DynamicPatchBuilder",
+        "bool"
+      ],
+      "returns": "bool"
+    },
+    {
+      "type": "STS2RitsuLib.Patching.Core.ModPatcher",
+      "member": "get_RegisteredDynamicPatchCount",
+      "parameters": [],
+      "returns": "int"
+    },
+    {
+      "type": "STS2RitsuLib.Patching.Core.ModPatcher",
+      "member": "get_AppliedPatchCount",
+      "parameters": [],
+      "returns": "int"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.ModelDb",
+      "member": "get_AllCharacters",
+      "parameters": [],
+      "returns": "System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.Models.CharacterModel>"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.CharacterModel",
+      "member": "get_StartingDeck",
+      "parameters": [],
+      "returns": "System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.Models.CardModel>"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.CardModel",
+      "member": "get_Tags",
+      "parameters": [],
+      "returns": "System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.Entities.Cards.CardTag>"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.CardModel",
+      "member": "get_Type",
+      "parameters": [],
+      "returns": "MegaCrit.Sts2.Core.Entities.Cards.CardType"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Random.Rng",
+      "member": "NextItem",
+      "parameters": [
+        "System.Collections.Generic.IEnumerable`1<M0>"
+      ],
+      "returns": "M0"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Factories.CardFactory",
+      "member": "CreateForMerchant",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Entities.Players.Player",
+        "System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.Models.CardModel>",
+        "MegaCrit.Sts2.Core.Entities.Cards.CardType"
+      ],
+      "returns": "MegaCrit.Sts2.Core.Entities.Cards.CardCreationResult"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Factories.CardFactory",
+      "member": "CreateForMerchant",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Entities.Players.Player",
+        "System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.Models.CardModel>",
+        "MegaCrit.Sts2.Core.Entities.Cards.CardRarity"
+      ],
+      "returns": "MegaCrit.Sts2.Core.Entities.Cards.CardCreationResult"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Factories.CardFactory",
+      "member": "GetForCombat",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Entities.Players.Player",
+        "System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.Models.CardModel>",
+        "int",
+        "MegaCrit.Sts2.Core.Random.Rng"
+      ],
+      "returns": "System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.Models.CardModel>"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Factories.CardFactory",
+      "member": "CreateRandomCardForTransform",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Models.CardModel",
+        "bool",
+        "MegaCrit.Sts2.Core.Random.Rng"
+      ],
+      "returns": "MegaCrit.Sts2.Core.Models.CardModel"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Factories.CardFactory",
+      "member": "CreateRandomCardForTransform",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Models.CardModel",
+        "System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.Models.CardModel>",
+        "bool",
+        "MegaCrit.Sts2.Core.Random.Rng"
+      ],
+      "returns": "MegaCrit.Sts2.Core.Models.CardModel"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Factories.CardFactory",
+      "member": "CreateForReward",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Entities.Players.Player",
+        "System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.Models.CardModel>",
+        "MegaCrit.Sts2.Core.Runs.CardCreationOptions"
+      ],
+      "returns": "MegaCrit.Sts2.Core.Models.CardModel"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Commands.CardPileCmd",
+      "member": "AddGeneratedCardToCombat",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Models.CardModel",
+        "MegaCrit.Sts2.Core.Entities.Cards.PileType",
+        "MegaCrit.Sts2.Core.Entities.Players.Player",
+        "MegaCrit.Sts2.Core.Entities.Cards.CardPilePosition"
+      ],
+      "returns": "System.Threading.Tasks.Task`1<MegaCrit.Sts2.Core.Entities.Cards.CardPileAddResult>"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Commands.CardPileCmd",
+      "member": "AddGeneratedCardsToCombat",
+      "parameters": [
+        "System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.Models.CardModel>",
+        "MegaCrit.Sts2.Core.Entities.Cards.PileType",
+        "MegaCrit.Sts2.Core.Entities.Players.Player",
+        "MegaCrit.Sts2.Core.Entities.Cards.CardPilePosition"
+      ],
+      "returns": "System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<MegaCrit.Sts2.Core.Entities.Cards.CardPileAddResult>>"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Commands.CardPileCmd",
+      "member": "Add",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Models.CardModel",
+        "MegaCrit.Sts2.Core.Entities.Cards.PileType",
+        "MegaCrit.Sts2.Core.Entities.Cards.CardPilePosition",
+        "MegaCrit.Sts2.Core.Models.AbstractModel",
+        "bool"
+      ],
+      "returns": "System.Threading.Tasks.Task`1<MegaCrit.Sts2.Core.Entities.Cards.CardPileAddResult>"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.AbstractModel",
+      "member": "BeforeHandDraw",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Entities.Players.Player",
+        "MegaCrit.Sts2.Core.GameActions.Multiplayer.PlayerChoiceContext",
+        "MegaCrit.Sts2.Core.Combat.ICombatState"
+      ],
+      "returns": "System.Threading.Tasks.Task"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.AbstractModel",
+      "member": "BeforeCombatStart",
+      "parameters": [],
+      "returns": "System.Threading.Tasks.Task"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.AbstractModel",
+      "member": "AfterCardPlayed",
+      "parameters": [
+        "MegaCrit.Sts2.Core.GameActions.Multiplayer.PlayerChoiceContext",
+        "MegaCrit.Sts2.Core.Entities.Cards.CardPlay"
+      ],
+      "returns": "System.Threading.Tasks.Task"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.CardModel",
+      "member": "get_CombatState",
+      "parameters": [],
+      "returns": "MegaCrit.Sts2.Core.Combat.ICombatState"
+    },
+    {
+      "type": "MegaCrit.Sts2.Core.Models.AbstractModel",
+      "member": "BeforeHandDraw",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Entities.Players.Player",
+        "MegaCrit.Sts2.Core.GameActions.Multiplayer.PlayerChoiceContext",
+        "MegaCrit.Sts2.Core.Combat.ICombatState"
+      ],
+      "returns": "System.Threading.Tasks.Task"
+    }
+  ],
+  "libraryDiscovery": {
+    "formalCards": [
+      "WoodenPickaxe",
+      "IronPickaxe",
+      "Mining",
+      "Tnt",
+      "GoldenApple"
+    ],
+    "mineralsHidden": true,
+    "initializationGatedByModelsProfileAndMainMenu": true,
+    "saveOnlyOnNewDiscoveries": true,
+    "gameplayVerification": "pending"
+  },
+  "cardAccess": {
+    "starterReplacement": "one Strike per registered character, Basic Attack fallback, same deck size",
+    "boostedCards": [
+      "IronPickaxe",
+      "Mining",
+      "Tnt",
+      "GoldenApple"
+    ],
+    "relativeWeight": 2,
+    "nativeSelectionTargets": 6,
+    "patchApplication": "explicit ApplyDynamic, rollback on failure, applied count checked at runtime",
+    "preservesNativeEligibilityAndRarity": true,
+    "gameplayVerification": "pending"
+  },
+  "previousUserBuild": {
+    "status": "passed as shown in user screenshot before these discovery and card-access changes",
+    "ruleChecks": 40205,
+    "nullableWarnings": 7
+  },
+  "compiled": false,
+  "ruleTestsExecuted": false,
+  "gameplayTested": false,
+  "multiplayerTested": false
+}

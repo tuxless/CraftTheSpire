@@ -1,0 +1,12 @@
+Built-in image generation. Final cover prompt:
+
+Use case: style-transfer.
+Asset type: square Steam Workshop mod cover.
+Input image 1 is the edit target, but it still looks too epic and Western fantasy. Transform it much more strongly into Japanese kawaii chibi illustration; the user specifically wants a cute Japanese aesthetic.
+Keep the mining theme, cyan diamond, pickaxe, a distant spire and the exact title "CRAFT THE SPIRE". Completely simplify all forms and the background. Render as a charming Japanese 2D cute mobile RPG / stationery illustration: clean soft colored outlines, plump rounded shapes, big simple readable silhouettes, flat pastel colors and only light cel shading.
+The central subject should be one ADORABLE cyan diamond mascot: rounded faceted gem body, tiny dot eyes, a small smiling mouth, pink cheek blush, small sparkles; no realistic complex crystal reflections. Nearby a little round coal lump and a little gold ingot also have simple cute faces. A short chunky wooden pickaxe leans beside them with gently rounded corners. The gem stays gem-shaped, not a human.
+Background: simplified cozy cave in peach and lavender, tiny warm lantern, moss and rounded pale rock shapes, an opening reveals a small fanciful tower made from soft block shapes amid fluffy clouds. Remove the giant European castle, cathedral pinnacles, dense arches, realistic faceted walls, cinematic distance and dramatic epic scale.
+Palette: pastel aqua, cream, pink, lavender, pale warm tan. Sweet, cozy, cheerful Japanese kawaii picture-book mood. Visibly stylized, playful and cute.
+Text (verbatim): "CRAFT THE SPIRE". Put this across the bottom in LARGE simple rounded bold sans-serif bubble letters, cream fill, teal outline. NO SERIFS, no gothic font, no engraved metallic gold title. Title must be clear at thumbnail size.
+Square opaque cover, clean margins. No human character, no other text, no logo, no watermark. Avoid realistic 3D rendering, detailed epic RPG promotional art, Western gothic fantasy, harsh contrasts, complex textures and visual clutter.
+

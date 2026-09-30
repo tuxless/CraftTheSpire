@@ -1,0 +1,72 @@
+[
+  {
+    "category": "CARD",
+    "class": "IronPickaxe",
+    "entryId": "CRAFT_THE_SPIRE_CARD_IRON_PICKAXE"
+  },
+  {
+    "category": "CARD",
+    "class": "Tnt",
+    "entryId": "CRAFT_THE_SPIRE_CARD_TNT"
+  },
+  {
+    "category": "CARD",
+    "class": "GoldenApple",
+    "entryId": "CRAFT_THE_SPIRE_CARD_GOLDEN_APPLE"
+  },
+  {
+    "category": "CARD",
+    "class": "Mining",
+    "entryId": "CRAFT_THE_SPIRE_CARD_MINING"
+  },
+  {
+    "category": "CARD",
+    "class": "WoodenPickaxe",
+    "entryId": "CRAFT_THE_SPIRE_CARD_WOODEN_PICKAXE"
+  },
+  {
+    "category": "CARD",
+    "class": "Diamond",
+    "entryId": "CRAFT_THE_SPIRE_CARD_DIAMOND"
+  },
+  {
+    "category": "CARD",
+    "class": "GoldIngot",
+    "entryId": "CRAFT_THE_SPIRE_CARD_GOLD_INGOT"
+  },
+  {
+    "category": "CARD",
+    "class": "IronIngot",
+    "entryId": "CRAFT_THE_SPIRE_CARD_IRON_INGOT"
+  },
+  {
+    "category": "CARD",
+    "class": "Coal",
+    "entryId": "CRAFT_THE_SPIRE_CARD_COAL"
+  },
+  {
+    "category": "RELIC",
+    "class": "DiamondPickaxe",
+    "entryId": "CRAFT_THE_SPIRE_RELIC_DIAMOND_PICKAXE"
+  },
+  {
+    "category": "RELIC",
+    "class": "Furnace",
+    "entryId": "CRAFT_THE_SPIRE_RELIC_FURNACE"
+  },
+  {
+    "category": "RELIC",
+    "class": "EnderChest",
+    "entryId": "CRAFT_THE_SPIRE_RELIC_ENDER_CHEST"
+  },
+  {
+    "category": "RELIC",
+    "class": "CraftingTable",
+    "entryId": "CRAFT_THE_SPIRE_RELIC_CRAFTING_TABLE"
+  },
+  {
+    "category": "EVENT",
+    "class": "AbandonedMineshaft",
+    "entryId": "CRAFT_THE_SPIRE_EVENT_ABANDONED_MINESHAFT"
+  }
+]
