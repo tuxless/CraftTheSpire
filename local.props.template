@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+    <GameDataDir>D:\steam\steamapps\common\Slay the Spire 2\data_sts2_windows_x86_64</GameDataDir>
+  </PropertyGroup>
+</Project>

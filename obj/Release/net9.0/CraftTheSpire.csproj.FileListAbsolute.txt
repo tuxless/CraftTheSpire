@@ -1,0 +1,14 @@
+D:\my mods\CraftTheSpire\build\beta\CraftTheSpire.deps.json
+D:\my mods\CraftTheSpire\build\beta\CraftTheSpire.runtimeconfig.json
+D:\my mods\CraftTheSpire\build\beta\CraftTheSpire.dll
+D:\my mods\CraftTheSpire\build\beta\CraftTheSpire.pdb
+D:\my mods\CraftTheSpire\obj\Release\net9.0\CraftTheSpire.csproj.AssemblyReference.cache
+D:\my mods\CraftTheSpire\obj\Release\net9.0\CraftTheSpire.GeneratedMSBuildEditorConfig.editorconfig
+D:\my mods\CraftTheSpire\obj\Release\net9.0\CraftTheSpire.AssemblyInfoInputs.cache
+D:\my mods\CraftTheSpire\obj\Release\net9.0\CraftTheSpire.AssemblyInfo.cs
+D:\my mods\CraftTheSpire\obj\Release\net9.0\CraftTheSpire.csproj.CoreCompileInputs.cache
+D:\my mods\CraftTheSpire\obj\Release\net9.0\CraftTheSpire.dll
+D:\my mods\CraftTheSpire\obj\Release\net9.0\refint\CraftTheSpire.dll
+D:\my mods\CraftTheSpire\obj\Release\net9.0\CraftTheSpire.pdb
+D:\my mods\CraftTheSpire\obj\Release\net9.0\CraftTheSpire.genruntimeconfig.cache
+D:\my mods\CraftTheSpire\obj\Release\net9.0\ref\CraftTheSpire.dll

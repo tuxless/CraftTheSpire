@@ -1,0 +1,190 @@
+[
+  {
+    "type": "CardFactory",
+    "method": "CreateForMerchant",
+    "static": true,
+    "signature": {
+      "returns": "MegaCrit.Sts2.Core.Entities.Cards.CardCreationResult",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Entities.Players.Player",
+        "System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.Models.CardModel>",
+        "MegaCrit.Sts2.Core.Entities.Cards.CardType"
+      ],
+      "genericCount": 0
+    },
+    "draws": [
+      {
+        "name": "NextItem",
+        "owner": "MegaCrit.Sts2.Core.Random.Rng",
+        "genericArguments": [
+          "MegaCrit.Sts2.Core.Models.CardModel"
+        ],
+        "instance": true,
+        "signature": {
+          "returns": "M0",
+          "parameters": [
+            "System.Collections.Generic.IEnumerable`1<M0>"
+          ],
+          "genericCount": 1
+        }
+      }
+    ]
+  },
+  {
+    "type": "CardFactory",
+    "method": "CreateForMerchant",
+    "static": true,
+    "signature": {
+      "returns": "MegaCrit.Sts2.Core.Entities.Cards.CardCreationResult",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Entities.Players.Player",
+        "System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.Models.CardModel>",
+        "MegaCrit.Sts2.Core.Entities.Cards.CardRarity"
+      ],
+      "genericCount": 0
+    },
+    "draws": [
+      {
+        "name": "NextItem",
+        "owner": "MegaCrit.Sts2.Core.Random.Rng",
+        "genericArguments": [
+          "MegaCrit.Sts2.Core.Models.CardModel"
+        ],
+        "instance": true,
+        "signature": {
+          "returns": "M0",
+          "parameters": [
+            "System.Collections.Generic.IEnumerable`1<M0>"
+          ],
+          "genericCount": 1
+        }
+      }
+    ]
+  },
+  {
+    "type": "CardFactory",
+    "method": "GetForCombat",
+    "static": true,
+    "signature": {
+      "returns": "System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.Models.CardModel>",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Entities.Players.Player",
+        "System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.Models.CardModel>",
+        "int",
+        "MegaCrit.Sts2.Core.Random.Rng"
+      ],
+      "genericCount": 0
+    },
+    "draws": [
+      {
+        "name": "NextItem",
+        "owner": "MegaCrit.Sts2.Core.Random.Rng",
+        "genericArguments": [
+          "MegaCrit.Sts2.Core.Models.CardModel"
+        ],
+        "instance": true,
+        "signature": {
+          "returns": "M0",
+          "parameters": [
+            "System.Collections.Generic.IEnumerable`1<M0>"
+          ],
+          "genericCount": 1
+        }
+      }
+    ]
+  },
+  {
+    "type": "CardFactory",
+    "method": "CreateRandomCardForTransform",
+    "static": true,
+    "signature": {
+      "returns": "MegaCrit.Sts2.Core.Models.CardModel",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Models.CardModel",
+        "bool",
+        "MegaCrit.Sts2.Core.Random.Rng"
+      ],
+      "genericCount": 0
+    },
+    "draws": [
+      {
+        "name": "NextItem",
+        "owner": "MegaCrit.Sts2.Core.Random.Rng",
+        "genericArguments": [
+          "MegaCrit.Sts2.Core.Models.CardModel"
+        ],
+        "instance": true,
+        "signature": {
+          "returns": "M0",
+          "parameters": [
+            "System.Collections.Generic.IEnumerable`1<M0>"
+          ],
+          "genericCount": 1
+        }
+      }
+    ]
+  },
+  {
+    "type": "CardFactory",
+    "method": "CreateRandomCardForTransform",
+    "static": true,
+    "signature": {
+      "returns": "MegaCrit.Sts2.Core.Models.CardModel",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Models.CardModel",
+        "System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.Models.CardModel>",
+        "bool",
+        "MegaCrit.Sts2.Core.Random.Rng"
+      ],
+      "genericCount": 0
+    },
+    "draws": [
+      {
+        "name": "NextItem",
+        "owner": "MegaCrit.Sts2.Core.Random.Rng",
+        "genericArguments": [
+          "MegaCrit.Sts2.Core.Models.CardModel"
+        ],
+        "instance": true,
+        "signature": {
+          "returns": "M0",
+          "parameters": [
+            "System.Collections.Generic.IEnumerable`1<M0>"
+          ],
+          "genericCount": 1
+        }
+      }
+    ]
+  },
+  {
+    "type": "CardFactory",
+    "method": "CreateForReward",
+    "static": true,
+    "signature": {
+      "returns": "MegaCrit.Sts2.Core.Models.CardModel",
+      "parameters": [
+        "MegaCrit.Sts2.Core.Entities.Players.Player",
+        "System.Collections.Generic.IEnumerable`1<MegaCrit.Sts2.Core.Models.CardModel>",
+        "MegaCrit.Sts2.Core.Runs.CardCreationOptions"
+      ],
+      "genericCount": 0
+    },
+    "draws": [
+      {
+        "name": "NextItem",
+        "owner": "MegaCrit.Sts2.Core.Random.Rng",
+        "genericArguments": [
+          "MegaCrit.Sts2.Core.Models.CardModel"
+        ],
+        "instance": true,
+        "signature": {
+          "returns": "M0",
+          "parameters": [
+            "System.Collections.Generic.IEnumerable`1<M0>"
+          ],
+          "genericCount": 1
+        }
+      }
+    ]
+  }
+]

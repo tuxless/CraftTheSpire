@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bvVLXNkPgVY=",
+  "success": true,
+  "projectFilePath": "D:\\my mods\\CraftTheSpire\\CraftTheSpire.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sleep\\.nuget\\packages\\godotsharp\\4.5.1\\godotsharp.4.5.1.nupkg.sha512",
+    "C:\\Users\\sleep\\.nuget\\packages\\sts2.ritsulib\\0.6.2\\sts2.ritsulib.0.6.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,121 @@
+{
+  "engine": "4.5.1",
+  "pckSha256": "1B378EC28AE3E00D7FA188C77FFFB2267132105B96AB48F84ECE4BB0A20622B5",
+  "verifiedInCleanProject": true,
+  "textureCount": 22,
+  "localizationTableCount": 6,
+  "sources": [
+    {
+      "path": "CraftTheSpire/images/cards/Coal.png",
+      "sha256": "ABB1A8E687408CD316851E5E4684F7BB4DA50554E20EBA99A154A766945AB822"
+    },
+    {
+      "path": "CraftTheSpire/images/cards/Diamond.png",
+      "sha256": "F8A6301F16D65D5F40F5CE788B0002C109D3C82DE23AF1B206EE93C5FF837781"
+    },
+    {
+      "path": "CraftTheSpire/images/cards/GoldIngot.png",
+      "sha256": "F4E681E2D174BF4C1F19241194FC0252E95A74F25D80503207ED76317CFE29F7"
+    },
+    {
+      "path": "CraftTheSpire/images/cards/GoldenApple.png",
+      "sha256": "806BEE1A0E1219BFF730CA362973701DD1C145116EE51CA2E89EBCCEA26AF529"
+    },
+    {
+      "path": "CraftTheSpire/images/cards/IronIngot.png",
+      "sha256": "6ACC6323CCB3D9C1C27C916BD9172ED50BAA6C37E504FFD6760C6F0F7F97969D"
+    },
+    {
+      "path": "CraftTheSpire/images/cards/IronPickaxe.png",
+      "sha256": "D49520B6E79A9B8049048FC5A90D48FD76A9BB2C2274AB6E30051FF884937EB8"
+    },
+    {
+      "path": "CraftTheSpire/images/cards/Mining.png",
+      "sha256": "86A66BFBBA03635107D13E99A7286859F74C78D0C20B86B1A632204AF52597D5"
+    },
+    {
+      "path": "CraftTheSpire/images/cards/Tnt.png",
+      "sha256": "BD05444972B7771590FCEBD8E2911FB21447BEA267951716765F3F189102C353"
+    },
+    {
+      "path": "CraftTheSpire/images/cards/WoodenPickaxe.png",
+      "sha256": "E6821137948B9F1DE35FB9C7B37D29C1A86D949DB46E6DD84067AFA93829086B"
+    },
+    {
+      "path": "CraftTheSpire/images/events/abandoned_mineshaft.png",
+      "sha256": "E2ED7543A2E2AB91FAA2C64E4811B630C5E91548A1D7763EC2863115B8DC11CE"
+    },
+    {
+      "path": "CraftTheSpire/images/relics/CraftingTable.png",
+      "sha256": "4D3AB9697EA19E720B0B6F74ED7B17926F3122584C4F9B1D041FC0CAFB2FA819"
+    },
+    {
+      "path": "CraftTheSpire/images/relics/CraftingTable_big.png",
+      "sha256": "40E105CD58F77A4E98858AD4F4509FE999E5EE83A6FBA758464AF8A92398E850"
+    },
+    {
+      "path": "CraftTheSpire/images/relics/CraftingTable_outline.png",
+      "sha256": "4D3AB9697EA19E720B0B6F74ED7B17926F3122584C4F9B1D041FC0CAFB2FA819"
+    },
+    {
+      "path": "CraftTheSpire/images/relics/DiamondPickaxe.png",
+      "sha256": "28FDDF80726B750D0BE21092145D530454C0042E0B137312C6F7C34D3705F0A6"
+    },
+    {
+      "path": "CraftTheSpire/images/relics/DiamondPickaxe_big.png",
+      "sha256": "9C26CBAACBABFE16F6420433BFED4170BA24B6C8F81C3D4C4B1D2F81888C7A56"
+    },
+    {
+      "path": "CraftTheSpire/images/relics/DiamondPickaxe_outline.png",
+      "sha256": "28FDDF80726B750D0BE21092145D530454C0042E0B137312C6F7C34D3705F0A6"
+    },
+    {
+      "path": "CraftTheSpire/images/relics/EnderChest.png",
+      "sha256": "48724337C7B0B1183F30671B8D3743DB58E912F1406A04B0E937DB251C6212E6"
+    },
+    {
+      "path": "CraftTheSpire/images/relics/EnderChest_big.png",
+      "sha256": "D66D1349669AE4CE74CE3EB0EF3CE689F8028E8AA81B94FA0FA9B6FB647AE026"
+    },
+    {
+      "path": "CraftTheSpire/images/relics/EnderChest_outline.png",
+      "sha256": "48724337C7B0B1183F30671B8D3743DB58E912F1406A04B0E937DB251C6212E6"
+    },
+    {
+      "path": "CraftTheSpire/images/relics/Furnace.png",
+      "sha256": "9AA5320942AD73A0C98CFF6C612436C3E62B49F955E4FA1B9D605B387BB4794D"
+    },
+    {
+      "path": "CraftTheSpire/images/relics/Furnace_big.png",
+      "sha256": "F16D3E7407067A21174AF7698AE11EDFC7FCFFBD3B0B253305FD1C3EA0222B57"
+    },
+    {
+      "path": "CraftTheSpire/images/relics/Furnace_outline.png",
+      "sha256": "9AA5320942AD73A0C98CFF6C612436C3E62B49F955E4FA1B9D605B387BB4794D"
+    },
+    {
+      "path": "CraftTheSpire/localization/eng/cards.json",
+      "sha256": "17F83AB4D6D1319BA8642E7F80BEF26BB1AAD9F016874A43A5CC52538E012744"
+    },
+    {
+      "path": "CraftTheSpire/localization/eng/events.json",
+      "sha256": "5BD22F4AECF2F7B735E9C6816F452DA65095FF7EBB85B466D0B47AB7A37E69E9"
+    },
+    {
+      "path": "CraftTheSpire/localization/eng/relics.json",
+      "sha256": "DA98343E166C648993D39348D3ED5DF02C1F65B948114F3D70237DFE302645FF"
+    },
+    {
+      "path": "CraftTheSpire/localization/zhs/cards.json",
+      "sha256": "1AEBDB8E33FF1AFB840F43A8F18268517FB9A0DF21252B12056149E237B93D06"
+    },
+    {
+      "path": "CraftTheSpire/localization/zhs/events.json",
+      "sha256": "6408D4AD056FD0A10AD21938525110C46921E2DB75D0CD7E2986A83A0534A9FA"
+    },
+    {
+      "path": "CraftTheSpire/localization/zhs/relics.json",
+      "sha256": "801F834890740CBD7CAB116C53928B49D065F9A051FCE1A3134AFA4E3E9D1174"
+    }
+  ]
+}
