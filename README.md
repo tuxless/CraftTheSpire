@@ -157,5 +157,30 @@ Steam 的这个结果表示操作超时。保持 Steam 在线，保留已有工�
 English overview
 Craft the Spire is a small Minecraft-inspired content mod for Slay the Spire 2 public-beta 0.111.0, requiring RitsuLib 0.6.2. It adds 5 collectible colorless cards, 4 temporary Mineral cards, 4 shared relics, and the Abandoned Mineshaft event.
 Available on the Steam Workshop. Search for “我的世界小型内容包 Craft the Spire [Public Beta]” in the Slay the Spire 2 Workshop and subscribe together with RitsuLib. This repository contains the source code, artwork, localization and build scripts.
-New runs replace one starting Strike with a Wooden Pickaxe. Mine resources during combat, turn coal into energy and iron into defense, and combine your finds with themed relics. The five collectible cards are revealed in the card library after initialization. Supports Simplified Chinese and English. See the test records and update notes for compatibility details.
+New runs replace one starting Strike with a Wooden Pickaxe. Mine resources during combat, turn coal into energy and iron into defense, and combine your finds with themed relics. The five
+collectible cards are revealed in the card library after initialization. Supports Simplified Chinese and English. See the test records and update notes for compatibility details.
 Pick up your pickaxe. There might be a diamond under the next stone.
+
+上传步骤
+1. 填写作者名
+   在模组项目文件夹里双击 SetAuthor.cmd，输入你希望显示的作者名，按回车。
+2. 重新构建
+   双击 Build.cmd，等窗口显示 BUILD PASSED。上传文件会生成在：
+   dist\CraftTheSpire-beta
+   
+   其中 content 文件夹应有 CraftTheSpire.dll、CraftTheSpire.pck、CraftTheSpire.json 三个文件。
+3. 下载官方上传器
+   打开 Mega Crit 官方上传器下载页，展开 Assets，下载 ModUploader-win-x64.zip，完整解压。里面应有 ModUploader.exe。GitHub
+4. 检查工坊信息
+   用记事本打开：
+   dist\CraftTheSpire-beta\workshop.json
+   
+   title 是标题，description 是介绍。首次可以保持现有配置；日系可爱封面和 RitsuLib 前置已经配置好了。
+5. 执行上传
+   保持 Steam 登录，关闭游戏，然后双击项目根目录的 Upload.cmd。窗口要求上传器路径时，粘贴你解压得到的完整路径，例如：
+   D:\ModUploader\ModUploader.exe
+   
+   按回车等待完成。脚本会替你执行官方上传命令。megacrit/sts2-mod-uploader · GitHub
+6. 保存这个模组的工坊身份
+   上传后保留整个 dist\CraftTheSpire-beta 文件夹，尤其是 mod_id.txt 和 workshop-identity.json。以后更新继续使用它们，就会更新同一个条目。不要复制之前旧模组的 ID。
+目前配置中的 "visibility": "private" 表示上传后只有你能查看。公开发布时，本包脚本会按你原文档要求检查：版本为 1.0.0，并完成 docs/RELEASE.md 中的测试记录；仅改成 "public" 会被脚本拦截
