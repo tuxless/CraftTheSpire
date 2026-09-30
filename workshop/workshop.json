@@ -1,0 +1,17 @@
+{
+  "title": "Craft the Spire [Public Beta]",
+  "description": "Craft the Spire — 方块生存题材内容扩展\n\n5 张可收集无色牌、4 张临时矿物牌、4 件共享遗物、1 个事件：废弃矿井。支持简体中文与英文。\n\nMine temporary resources, use coal and iron for tempo, and chase rare diamonds.\n\nDevelopment build 0.1.0. Target: Slay the Spire 2 public-beta 0.111.0. Requires RitsuLib 0.6.2.\nMultiplayer and save/load validation remain pending. Stable branch is not supported.\n\nUnofficial fan-made mod. Not affiliated with Mojang, Microsoft or Mega Crit. Original generated artwork; no extracted game textures or sounds.",
+  "visibility": "private",
+  "changeNote": "Initial development build. See the validation checklist before public release.",
+  "tags": [
+    "Cards",
+    "Relics",
+    "Events"
+  ],
+  "dependencies": [
+    3747602295
+  ],
+  "contentDescriptors": [],
+  "minBranch": "public-beta",
+  "maxBranch": "public-beta"
+}

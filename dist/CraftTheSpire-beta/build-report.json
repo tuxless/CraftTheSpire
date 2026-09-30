@@ -1,0 +1,16 @@
+{
+    "targetBranch":  "public-beta",
+    "targetGameVersion":  "0.111.0",
+    "ritsuLib":  "0.6.2",
+    "createdUtc":  "2026-09-30T17:50:36.2730576Z",
+    "actualGameDataDir":  "D:\\steam\\steamapps\\common\\Slay the Spire 2\\data_sts2_windows_x86_64",
+    "gameSha256":  "0861BFA1DF347538D932F22D580E75420F08082792EB914E53B4882764ACDBE9",
+    "dllSha256":  "FEC447AC56F716A77A26EF8133280FB7CD8219AAFB51289909E8446F06AAF515",
+    "pckSha256":  "1B378EC28AE3E00D7FA188C77FFFB2267132105B96AB48F84ECE4BB0A20622B5",
+    "ruleTests":  "passed",
+    "compilation":  "passed",
+    "actualGameVersion":  "verify in game/log",
+    "gameplay":  "passed",
+    "multiplayer":  "passed",
+    "saveLoad":  "passed"
+}
